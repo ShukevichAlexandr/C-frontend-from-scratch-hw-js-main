@@ -20,12 +20,8 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 const array1 = [1, 2, 3, 4, 5]
 const array2 = [3, 4, 5, 6, 7, 8]
 
-function findUniqueElements(array1, array2) {
-    const commonElements = [];
-    for (let element of array1) {
-      if (array2.includes(element)) {
-          commonElements.push(element);
-      }
-  }
-  return commonElements;
+function findCommonElements(array1, array2) {
+  return array1.filter(item => array2.includes(item));
 }
+
+
