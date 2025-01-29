@@ -31,6 +31,3 @@ function findUniqueElements(array1, array2) {
   
   return commonElements;
 }
-
-
-console.log(findUniqueElements(array1, array2));

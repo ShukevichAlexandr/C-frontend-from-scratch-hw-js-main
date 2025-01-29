@@ -20,5 +20,3 @@ function doubleEachCharacter(word) {
   }
   return doubledWord;
 }
- console.log(doubleEachCharacter(myWord));
- 

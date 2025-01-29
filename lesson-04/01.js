@@ -28,5 +28,3 @@ function includesElement(array, element) {
 }
 
 
-console.log(includesElement(array, element));
-

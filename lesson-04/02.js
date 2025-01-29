@@ -21,5 +21,5 @@ function findUniqueElements(array) {
   const uniqueElements = new Set(array)
   return Array.from(uniqueElements);
 }
- console.log( findUniqueElements(array));
+
  
